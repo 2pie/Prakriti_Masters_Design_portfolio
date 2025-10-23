@@ -144,13 +144,14 @@
     }
 
 
-      .slides iframe {
-      width: 90%;          /* same as images */
-      height: auto;        /* keeps aspect ratio when resizing */
-      aspect-ratio: 16 / 9; /* makes sure it stays 16:9 */
-      display: block;      
-      margin: auto;        /* centers horizontally */
-      margin-left: 5.6%;
+    .slides iframe {
+      display: block;
+      width: 100%;             /* matches image width */
+      max-width: 100%;         /* ensures no overflow */
+      height: auto;
+      aspect-ratio: 16 / 9;    /* maintains correct proportions */
+      margin: 0 auto 1.5%;     /* centers it and adds bottom spacing */
+      border: none;            /* removes default border */
     }
 
 
