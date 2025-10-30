@@ -7,7 +7,7 @@
         --contenttext: rgb(29, 28, 27);
         --headingtext: rgb(112, 81, 3);
         /* background */
-        --backwhite: rgb(245, 237, 230);
+        --backwhite: #f5ede6;
         --backblack: rgb(26, 26, 26);
         --backgold: antiquewhite;
         /* button */
@@ -148,6 +148,35 @@
         }
 
     }
+
+    footer {
+    display: flex; 
+    height: fit-content;
+    width: 100%;
+    flex-direction: column; 
+    align-items: center; 
+    /* text-align: center;   */
+    padding: 1rem;
+    background-color: var(--backblack);
+    color:var(--backgold);
+}
+.footericon{
+    display: flex; 
+    align-items: center;
+    height: 80px;
+    
+}
+
+
+.iconlink {
+    width: 90%;
+    height: 50%;
+    margin-bottom: 30%;
+}
+
+.iconlink:hover {
+    border: 1px solid var(--backgold);
+}
 
  
 
