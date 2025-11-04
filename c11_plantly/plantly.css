@@ -146,23 +146,32 @@
   
     .slides img {
         height: auto;
-        width: 100%;
+        width: 90%;
         margin: auto;
         margin-bottom: 1.5%;
+        margin-left: 5.5%;
         
     }
 
 
-    .slides iframe {
+    /* .slides iframe {
       display: block;
-      width: 100%;             /* matches image width */
-      max-width: 100%;         /* ensures no overflow */
+      width: 100%;          
+      max-width: 100%;      
       height: auto;
-      aspect-ratio: 16 / 9;    /* maintains correct proportions */
-      margin: 0 auto 1.5%;     /* centers it and adds bottom spacing */
-      border: none;            /* removes default border */
-    }
+      aspect-ratio: 16 / 9;    
+      margin: 0 auto 1.5%;     
+      border: none;            
+    } */
 
+
+     .slides video {
+      width: 90%   ;    
+      height: auto  ;  
+      margin: auto;
+      margin-left: 5.5%;
+
+    }
 
     .sidebar {
         height: 100%;
