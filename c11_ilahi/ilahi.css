@@ -75,14 +75,18 @@
       justify-content: space-between;
       align-items: center;
       padding: 10px 30px;
+      padding-right: 10%;
       background-color:  rgba(0, 0, 0, 0.863);
+      font-family: 'Instrument Sans', sans-serif;
+        
       
   }
   
-  .logo {
-      color: rgb(247, 240, 231);
-      font-weight: 600;
-      font-size: 16px;
+    .logo {
+        color: rgb(203, 182, 154);
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 4px;
   
   }
   
@@ -94,14 +98,14 @@
   
   }
   
-  nav .nav-links ul li {
-      padding:  10px;
-      
-      list-style: none;
-      font-size: 1.0em;
-      color: var(--passivetext);
-      /* background-color: aqua;     */
-      margin: auto;
+    nav .nav-links ul li {
+        list-style: none;
+        font-size: 0.8em;
+        color: var(--passivetext);
+        margin: auto;
+        padding: 10px;
+        right: 10%;
+        letter-spacing: 4px;
       
       
     
@@ -147,33 +151,22 @@
   
     .slides img {
         height: auto;
-        width: 90%;
+        width: 100%;
         margin: auto;
         margin-bottom: 1.5%;
-        margin-left: 5.5%;
         
     }
 
 
-    /* .slides iframe {
+    .slides iframe {
       display: block;
-      width: 100%;             
-      max-width: 100%;         
+      width: 100%;             /* matches image width */
+      max-width: 100%;         /* ensures no overflow */
       height: auto;
-      aspect-ratio: 16 / 9;    
-      margin: 0 auto 1.5%;     
-      border: none;           
-    } */
-
-     .slides video {
-      width: 90%   ;    
-      height: auto  ;  
-      margin: auto;
-      margin-left: 5.5%;
-       margin-bottom: 1.5%;
-
+      aspect-ratio: 16 / 9;    /* maintains correct proportions */
+      margin: 0 auto 1.5%;     /* centers it and adds bottom spacing */
+      border: none;            /* removes default border */
     }
-
 
 
     .sidebar {
